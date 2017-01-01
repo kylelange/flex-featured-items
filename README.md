@@ -1,6 +1,6 @@
 # _App Name_
 
-#### _{A responsive site + short desc.}, {Dec 2, 2016}_
+#### _{A responsive site + short desc.}, {Jan 1, 2017}_
 
 #### By _**Kyle Lange**_
 
@@ -19,7 +19,28 @@
 
 3. run/check-out the program by dropping the index/html file from your folder into your web browser
 
-Install Sass/Bourbon/Neat:
+4. Install Sass/Bourbon/Neat:
+
+   in your console write:
+
+           _gem install sass_
+
+   If you get an error message try:
+
+           _sudo gem install sass_
+
+   Then:
+
+         _gem install bourbon && gem install neat_
+
+   Finally:
+
+         _bourbon install && neat install_
+
+ 5. Watch your Sass project/ make changes with:
+
+         _sass --watch scss:css_
+
 
 ## Known Bugs
 
