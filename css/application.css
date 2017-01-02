@@ -54,9 +54,14 @@ h1, h2 {
     justify-content: center;
     background-color: darkgoldenrod;
     padding: 10px; }
-  .nav h2 {
-    background-color: maroon;
-    padding: 10px; }
+  .nav .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .nav .links h2 {
+      background-color: maroon;
+      padding: 10px; }
 
 #hero-text {
   width: 80%;

@@ -54,9 +54,16 @@ h1,h2 {
     background-color: darkgoldenrod;
     padding: 10px;
   }
-  h2 {
-    background-color: maroon;
-    padding: 10px;
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    h2 {
+      background-color: maroon;
+      padding: 10px;
+    }
   }
 }
 
