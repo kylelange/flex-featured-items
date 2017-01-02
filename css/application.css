@@ -61,6 +61,8 @@ h1, h2 {
     align-items: center; }
     .nav .links h2 {
       background-color: maroon;
+      font-size: 1.8em;
+      margin: 5px;
       padding: 10px; }
 
 #hero-text {
