@@ -1,15 +1,18 @@
 # _App Name_
 
-#### _{A responsive site + short desc.}, {Jan 1, 2017}_
+#### _{A responsive site template using FLEXBOX ONLY}, {Jan 1, 2017}_
 
 #### By _**Kyle Lange**_
 
-![screenshot](Screen Shot.png)
+### See it [live here.](http://codepen.io/kylelange/pen/mRbjNv)
 
+![screenshot](Screenshot1.png)
+![screenshot](Screenshot2.png)
+![screenshot](Screenshot3.png)
 
 ## Description
- This week's code review must include:
 
+This pen is a FLEXBOX ONLY template of a Features Items layout for web design.  It was created WITHOUT A GRID and can be used for all web needs.
 
 ## Setup/Installation Requirements
 
@@ -29,14 +32,6 @@
 
            _sudo gem install sass_
 
-   Then:
-
-         _gem install bourbon && gem install neat_
-
-   Finally:
-
-         _bourbon install && neat install_
-
  5. Watch your Sass project/ make changes with:
 
          _sass --watch scss:css_
@@ -53,8 +48,7 @@ For questions or comments, please __email  [Kyle here.](baronsintrees@gmail.com)
 ## Technologies Used
 
 * HTML5
-* CSS3 with Sass, Bourbon and Neat
-* JavaScript with jQuery 3.1
+* CSS3 with Sass.
 
 ### License
 
