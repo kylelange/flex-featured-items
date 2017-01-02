@@ -77,12 +77,24 @@ h1, h2, p {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
+  @media only screen and (max-width: 1050px) {
+    .container {
+      flex-wrap: wrap; } }
   .container .tile {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 250px;
     height: auto; }
+    @media only screen and (max-width: 1050px) {
+      .container .tile {
+        width: 420px;
+        height: auto; } }
+    @media only screen and (max-width: 850px) {
+      .container .tile {
+        width: 650px;
+        height: auto;
+        margin: 0 10px; } }
     .container .tile .images {
       width: 100%;
       height: 230px;
