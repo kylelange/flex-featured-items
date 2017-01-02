@@ -41,3 +41,30 @@ h1,h2 {
   font-family: 'Playfair Display', 'Gill Sans', sans-serif;
   font-size: 2em;
 }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  .logo {
+    display: flex;
+    justify-content: center;
+    background-color: darkgoldenrod;
+    padding: 10px;
+  }
+  h2 {
+    background-color: maroon;
+    padding: 10px;
+  }
+}
+
+
+#hero-text {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: darkgoldenrod;
+  text-align: center;
+}
